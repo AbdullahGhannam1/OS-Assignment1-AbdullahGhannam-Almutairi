@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | Abdullah Ghannam Almutairi |
+| **Student ID** | 445350051 |
+| **University Email** | 445350051@std.psau.edu.sa |
+| **GitHub Username** | AbdullahGhannam1 |
+| **Repository Link** | https://github.com/AbdullahGhannam1/OS-Assignment1-AbdullahGhannam-Almutairi |
  
 ---
 
@@ -129,17 +129,27 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
+### Entry 1 - [October 10, 2026, 8:05 PM]
+
 **What I did**:
+Set up the project and tested the Java simulation.
 
 **Details**:
+- Installed Git and cloned my GitHub repository.
+- Opened the project in VS Code and reviewed the code.
+- Learned how Round-Robin scheduling and threads work.
+- Changed my student ID to 445350051.
+- Created my first commit and pushed it to GitHub.
+- Installed JDK 21 and ran the program successfully.
+- The simulation ran 19 processes with a 5000ms time quantum.
 
 **Challenges**:
+Git and Java were not working at first. I also had trouble connecting to GitHub.
 
 **Solution**:
+I installed Git and Java, fixed the setup, and connected my GitHub account.
 
-**Time spent**:
-
+**Time spent**: 2 hours (approximately)
 ---
 
 ### Entry 2 - [Date and Time]
