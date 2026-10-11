@@ -151,21 +151,30 @@ I installed Git and Java, fixed the setup, and connected my GitHub account.
 
 **Time spent**: 2 hours (approximately)
 ---
+### Entry 2 - [October 11, 2026, 10:40 PM]
 
-### Entry 2 - [Date and Time]
 **What I did**:
+Added Process Priority to the Java simulation.
 
 **Details**:
+- Added a priority variable to the Process class.
+- Updated the constructor and added getPriority().
+- Generated random priorities from 1 to 10.
+- Displayed priorities in the ready queue.
+- Tested the program successfully.
+- Committed and pushed my changes to GitHub.
 
 **Challenges**:
+I had some errors when updating the constructor and using Git commands.
 
 **Solution**:
+I corrected the code and fixed the Git command syntax.
 
-**Time spent**:
-
+**Time spent**: 1 hour and 30 minutes (approximately)
 ---
 
 ### Entry 3 - [Date and Time]
+
 **What I did**:
 
 **Details**:
@@ -177,7 +186,6 @@ I installed Git and Java, fixed the setup, and connected my GitHub account.
 **Time spent**:
 
 ---
-
 ### Entry 4 - [Date and Time]
 **What I did**:
 
