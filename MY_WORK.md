@@ -173,17 +173,25 @@ I corrected the code and fixed the Git command syntax.
 **Time spent**: 1 hour and 30 minutes (approximately)
 ---
 
-### Entry 3 - [Date and Time]
+### ### Entry 3 - [October 12, 2026, 10:05 PM]
 
 **What I did**:
+Added Context Switch Counter to the Java simulation.
 
 **Details**:
+- Added a static variable to count context switches.
+- Increased the counter each time a thread starts.
+- Displayed the total number of context switches.
+- Tested the program and got 38 context switches.
+- Committed and pushed my changes to GitHub.
 
 **Challenges**:
+I accidentally added Thread.start() twice.
 
 **Solution**:
+I removed the duplicate line and tested the program again.
 
-**Time spent**:
+**Time spent**: 30 minutes (approximately)
 
 ---
 ### Entry 4 - [Date and Time]
