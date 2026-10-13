@@ -173,7 +173,7 @@ I corrected the code and fixed the Git command syntax.
 **Time spent**: 1 hour and 30 minutes (approximately)
 ---
 
-### ### Entry 3 - [October 12, 2026, 10:05 PM]
+ ## Entry 3 - [October 12, 2026, 10:05 PM]
 
 **What I did**:
 Added Context Switch Counter to the Java simulation.
@@ -194,16 +194,26 @@ I removed the duplicate line and tested the program again.
 **Time spent**: 30 minutes (approximately)
 
 ---
-### Entry 4 - [Date and Time]
+### Entry 4 - [October 13, 2026, 5:30 PM]
+
 **What I did**:
+Added Waiting Time Tracking to the Java simulation.
 
 **Details**:
+- Added variables to track process times.
+- Used System.currentTimeMillis() to calculate waiting time.
+- Added methods to calculate turnaround time.
+- Created a table to display process statistics.
+- Tested the program successfully with 19 processes.
+- Committed and pushed my changes to GitHub.
 
 **Challenges**:
+I had some errors with brackets and repeated a line of code by mistake.
 
 **Solution**:
+I removed the repeated code, fixed the brackets, and tested the program again.
 
-**Time spent**:
+**Time spent**: 1 hour and 15 minutes (approximately)
 
 ---
 
