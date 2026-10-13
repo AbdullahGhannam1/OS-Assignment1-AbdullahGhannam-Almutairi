@@ -394,15 +394,15 @@ This allows other processes to use the CPU before P1 runs again
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [New: P1 enters the New state when we create a thread using new Thread(process) inside addProcessToQueue()]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [P1 becomes Runnable when currentThread.start() is called in the scheduler loop.]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [P1 becomes Runnable when currentThread.start() is called in the scheduler loop.]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [P1 enters the TIMED_WAITING state when Thread.sleep() is called, while the main thread waits using Thread.join()]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [P1 enters the TIMED_WAITING state when Thread.sleep() is called, while the main thread waits using Thread.join().]
 
 ## Question 4: Real-World Applications
 
@@ -415,29 +415,40 @@ This allows other processes to use the CPU before P1 runs again
 ### Example 1 (operating-system level): [Name of scenario]
 
 **Description**:
-[Describe the real-world scenario.]
+[An operating system needs to manage different programs at the same time.
+
+For example, a computer can run a web browser and a music player together.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin gives each process a time quantum to use the CPU.
+
+When the time ends, the scheduler can switch to another process.
+
+This helps different programs get a fair chance to run.]
 
 ### Example 2: [Name of application/scenario]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[A server can receive many tasks from different users.
+Each task needs some time to execute]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin can give each task a short time quantum.
+
+If a task does not finish, it returns to the ready queue.
+
+This helps the server share processing time fairly between different tasks.]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.The difference between processes and threads.
+2.How Round-Robin scheduling works using time quantum
+3.How threads are created, executed, and terminated
 
 **Concepts I need to study more:**
-1.
-2.
+1.Thread synchronization.
+2.Different CPU scheduling algorithms
 
 ---
 
