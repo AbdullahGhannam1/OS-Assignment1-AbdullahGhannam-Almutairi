@@ -273,7 +273,8 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Question 1: What did you learn about multithreading?
+Before this assignment I did not understand how threads work in Java I learned that Runnable is used to define what a thread will do Thread.start() starts the thread while Thread.join() makes the main thread wait for it I also learned how Thread.sleep() is used to simulate execution time. The Round-Robin scheduler gives each process a turn using a time quantum I was surprised that our program creates a new Thread when a process returns to the ready queue]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -281,7 +282,7 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[The hardest part for me was adding waiting time tracking At first I was confused about where to record the waiting time I had to add new variables and method to the Process class I also made some mistakes with brackets and repeated a line of code These mistakes caused errors in VS Code After fixing them I was able to run the program and see the results]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -289,7 +290,7 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I tried to solve each problem step by step When I did not understand something, I reviewed the code and asked for explanations I also checked the error messages in VS Code For example, I removed a repeated line and fixed the bracket After making changes I tested the program to check if it worked I also used Git to save my progres after finishing each feature]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -297,7 +298,7 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading can be used in many applications in our daily life. For example a web browser can download files while we are using other websites In video games threads can help run different tasks like sound and player actions In our project I learned how Round-Robin gives each process a turn to run. I think this is useful because it helps programs handle different tasks without making the user wait.]
 
 ### Optional: What would you like to learn more about?
 
@@ -327,9 +328,17 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 > 💡 **TIP:** Note that the class named `Process` in our code is a *simulated* process, and it is run by a real Java *thread*. Explain that distinction and point to the `new Thread(process)` line in `addProcessToQueue()`.
 
-**Your Answer:** *(3-5 sentences)*
+**Your Answer:** *
+[A process is a running program while a thread runs tasks inside a process.
 
-[Write your answer here.]
+Processes usually have separate memory but threads in the same process share memory.
+
+Threads are also faster to create than separate processes.
+
+In our project the Process class represents a simulated process, not a real operating system process.
+
+We used new Thread(process) because Java threads are easier to manage in our simulation.
+]
 
 ## Question 2: Ready Queue Behavior
 
@@ -341,15 +350,41 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[
+In Round-Robin scheduling if a process does not finish within its time quantum it returns to the ready queue.
 
-Example from my output:
+In my simulation, P1 had a burst time of 12291ms, and the time quantum was 5000ms.
+
+P1 needed three turns to finish and returned to the ready queue twice.
+
+This is important because other processes can use the CPU while P1 is waiting for its next turn]
+
+
+**Example from my output:**
+
+
+```text
+P1 executing quantum [5000ms]
+  Quantum progress: [███████████████] 100%
+  P1 completed quantum 5000ms │ Overall progress: [████████████████░░░░] 81%
+     Remaining time: 2291ms
+  P1 yields CPU for context switch
+
+  P1 added to ready queue │ Burst time: 12291ms │ Priority: 7
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
-```
+
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+
+P1 completed its time quantum of 5000ms
+
+It still had 2291ms remaining
+
+The process returned to the ready queue because it was not finished
+
+This allows other processes to use the CPU before P1 runs again
+
+
 
 ## Question 3: Thread Lifecycle
 
