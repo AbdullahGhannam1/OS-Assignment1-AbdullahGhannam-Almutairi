@@ -227,7 +227,22 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 **Solution**:
 
 **Time spent**:
+### Entry 5 - [October 14, 2026]
 
+**What I did**: Tested the final version of my Java simulation.
+
+**Details**:
+- Ran the program using the terminal.
+- Checked the final output for all 19 processes.
+- Checked the Waiting Time and Turnaround Time results.
+- Made sure the program finished successfully.
+- Reviewed the results before the final submission.
+
+**Challenges**: I did not face any new errors during the final test.
+
+**Solution**: I checked the program output to make sure everything worked correctly.
+
+**Time spent**: [Approximately 15–20 minutes]
 ---
 
 ### Entry 6 - [Optional - Date and Time]
