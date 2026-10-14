@@ -263,13 +263,16 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: Approximately 6 hours and 30 minutes.
 
 **Most challenging part**:
+The most challenging part was Waiting Time Tracking because I was confused about how to calculate the waiting time.
 
 **Most interesting learning**:
+I learned how threads work and how Round-Robin scheduling gives each process a turn.
 
 **What I would do differently next time**:
+I would check my code more carefully and test each small change before continuing.
 
 ---
 
