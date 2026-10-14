@@ -39,7 +39,7 @@
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**: [(https://drive.google.com/file/d/1CGIZbwn3Kq1YdcGG9rjB-QBdmfo2zja1/view?usp=sharing)]
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
@@ -217,16 +217,6 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
 ### Entry 5 - [October 14, 2026]
 
 **What I did**: Tested the final version of my Java simulation.
@@ -245,16 +235,27 @@ I removed the repeated code, fixed the brackets, and tested the program again.
 **Time spent**: [Approximately 15–20 minutes]
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**:
+### Entry 6 - [October 14, 2026]
+
+**What I did**: Reviewed my project and recorded the final demonstration video.
 
 **Details**:
+- Ran the final version of my Java program.
+- Tested the simulation successfully with 19 processes.
+- Checked the final output and got 38 Context Switches.
+- Reviewed the three features I added to the project.
+- Checked the Priority, Waiting Time, and Turnaround Time results.
+- Prepared a simple explanation for each feature.
+- Reviewed the code and organized the important line numbers.
+- Recorded a 3-minute demonstration video.
+- Explained the three features and how they work.
+- Showed the program execution and final results.
 
-**Challenges**:
+**Challenges**: It was difficult to organize my explanation and keep the video within 3 minutes.
 
-**Solution**:
+**Solution**: I made a table with the important line numbers and explained each feature separately.
 
-**Time spent**:
+**Time spent**: [Approximately 1 hour ].
 
 ---
 
